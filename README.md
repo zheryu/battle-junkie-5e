@@ -2,32 +2,31 @@
 
 This is an application designed to provide a more fluid UI during main.combat.
 
+## Requirements
+```
+java 11.0.8
+gradle 5.0+ (as per https://openjfx.io/openjfx-docs/#gradle, only verified on 6.6.1)
+```
+
 ## Run
 
 
+On Windows Powershell:
+```
+.\gradlew build
+.\gradlew run
+```
 
-## 
+On WSL Ubuntu, probably also Mac:
+```
+./gradlew build
+./gradlew run
+```
 
+## TODO:
+* Panel for combat turn composition
+* Panel for valid actions during turn
+* Domain object modeling for taking 5e turns
+* Configuration parsing
+* Configurations for Fighter:Samurai class
 
---- Panel 1 ---
-Turn #2
-1. Fighting Spirit (Bonus Action)
-2. Attack Action (Main Action)
-    a. Great Weapon Master (Power) (SubAction)
-    b. Melee Attack (SubAction)
-    c. Great Weapon Master (Power) (SubAction)
-    d. Melee Attack (SubAction)
-3. Action Surge (Free Action)
-4. Attack Action (Main Action)
-    a. Great Weapon Master (Power) (SubAction)
-    b. Melee Attack (SubAction)
-    c. Great Weapon Master (Power) (SubAction)
-    d. Melee Attack (SubAction)
---- Panel 1 ---
-    
---- Panel 2 ---
-Fighting Spirit
-Melee Attack
-...
-
---- Panel 2 ---
