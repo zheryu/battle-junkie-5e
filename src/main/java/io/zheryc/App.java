@@ -19,12 +19,16 @@ public class App extends Application {
     private static final String APP_TITLE = "Battle Junkie 5e";
 
     private ConfigurableApplicationContext springContext;
+    private FXMLLoader fxmlLoader;
+
     private Parent rootNode;
 
 
     @Override
     public void init() {
         this.springContext = SpringApplication.run(App.class);
+        fxmlLoader = new FXMLLoader();
+        fxmlLoader.setControllerFactory(springContext::getBean);
     }
 
     @Override
@@ -50,7 +54,7 @@ public class App extends Application {
 
     @Override
     public void stop() {
-        springContext.close();
+        springContext.stop();
     }
 
     public static void main(String[] args) {
