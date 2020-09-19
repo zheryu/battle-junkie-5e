@@ -1,4 +1,4 @@
-package io.zheryc.combat;
+package io.dungeonfriends.battlejunkie.combat;
 
 import java.util.ArrayList;
 import java.util.List;

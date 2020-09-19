@@ -1,4 +1,4 @@
-package io.zheryc;
+package io.dungeonfriends.battlejunkie;
 
 import javafx.scene.Parent;
 import javafx.scene.Scene;

@@ -1,12 +1,11 @@
-package io.zheryc.combat;
+package io.dungeonfriends.battlejunkie.combat;
 
 import java.util.List;
 
 /**
- * Action that takes place within a top-level action in the turn model.
+ * a top-level action that falls out of the bonus action / main action / movement model.
  */
-public class SubAction implements Action {
-
+public class FreeAction implements Action {
     @Override
     public Object getTarget() {
         return null;

@@ -1,4 +1,4 @@
-package io.zheryc.combat;
+package io.dungeonfriends.battlejunkie.combat;
 
 
 public class ActionFactory {

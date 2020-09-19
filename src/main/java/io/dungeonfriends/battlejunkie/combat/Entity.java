@@ -1,4 +1,4 @@
-package io.zheryc.combat;
+package io.dungeonfriends.battlejunkie.combat;
 
 /**
  * Representation of any "thing" capable of performing actions or being the target of an action.
