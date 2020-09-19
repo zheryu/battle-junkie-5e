@@ -35,7 +35,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "io.zheryc.App"
+    mainClassName = "io.dungeonfriends.battlejunkie.App"
 }
 
 tasks.test {
