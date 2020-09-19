@@ -1,6 +1,6 @@
 # Battle Junkie 5e
 
-This is an application designed to provide a more fluid UI during main.combat.
+This is an application designed to provide a more fluid UI during 5e combat.
 
 ## Requirements
 ```
